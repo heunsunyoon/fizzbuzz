@@ -1,1 +1,2 @@
-print("Python Works!")
+for i in range(5):
+    print("Python Works!")
