@@ -21,9 +21,10 @@
 #    else:
 #        print("i")
 
+# Tenary operator
 value = int(input("insert number:"))
 result = [
-    str(num) + ":fizzbuzz" if num % 15 == 0 else str(num) + ":i"
+    str(num) + ":fizz" if num % 3 == 0 else str(num) + ":i"
     for num in range(1, value+1)
 ]
 print(result)
